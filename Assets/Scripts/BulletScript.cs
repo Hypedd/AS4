@@ -17,4 +17,9 @@ public class BulletScript : MonoBehaviour
     {
         transform.Translate(0, 0, speed * Time.deltaTime);
     }
+
+    void OnTriggerEnter(Collider other) {
+        Destroy(other.gameObject);
+        Destroy(gameObject);
+    }
 }

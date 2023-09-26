@@ -11,13 +11,13 @@ TagManager:
   - 
   - Water
   - UI
+  - Player
+  - Enemy
+  - PlayerBullet
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Base
+  - Enviroment
+  - DestroyableEnviroment
   - 
   - 
   - 
